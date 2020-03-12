@@ -118,6 +118,10 @@
   font-size: 16px;
 }
 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none; 
+}
+
 
 .body
 {
@@ -239,20 +243,45 @@ padding-top: 175px;
 .delice-papilles
 {
 font-family: Dancing_Script;
+background-color: #f9f9f9;
 color: #0887fb;
 height: 400px;
 width: 535px;
 padding-top: 175px;
 }
 
+.p-delice
+{
+  background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For old Opera (11.1 to 12.0) */
+background-image:linear-gradient (to right, #0431df 0%, #0887fb 66%);
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;}
+
 .palette-gout
 {
+background-color: #fdfffd;
 color: #72bf56;
 height: 400px;
 width: 535px;
 font-family: Kaushan_Script;
 padding-top: 175px;
 
+}
+
+.p-palette
+{
+  background-image: -webkit-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For old Opera (11.1 to 12.0) */
+  background-image:linear-gradient (to right, #3d9339 0%, #bfff7e 66%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 /*Btn Prochainement*/
@@ -282,8 +311,8 @@ padding-top: 175px;
 {
   display:flex;
   justify-content: space-between;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: auto;
   font-family: Poppins;
   font-size: 1.5em;
