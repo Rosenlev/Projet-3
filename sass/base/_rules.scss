@@ -1,0 +1,68 @@
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none; 
+    color:#f7c848;;
+  }
+
+  html, body {  margin: 0;  padding: 0;}
+
+.centered
+{
+  width: auto;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: 0;
+}
+
+
+h1
+{
+text-align: center;
+font-size: 3em;
+font-family: Poppins;
+font-weight: 700;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3
+{text-align: center;}
+
+
+.h3-ml
+{
+    text-align:justify;
+}
+
+img
+
+{
+  
+margin-left: auto;
+margin-right: auto;
+height: auto; 
+width: auto; 
+max-width: 300px; 
+max-height: 300px;
+
+}
+
+
+.lignemenu
+{
+    padding: 40px;
+}
+
+
+.line
+{
+    display: flex;
+max-width: auto;
+justify-content: space-between;
+margin: auto;}

@@ -1,0 +1,501 @@
+@charset "UTF-8";
+/*Fonts*/
+/*Junicode*/
+@font-face {
+  font-family: "junicoderegular";
+  src: url("../fonts/Junicode-webfont.eot");
+  src: url("../fonts/Junicode-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Junicode-webfont.woff2") format("woff2"), url("../fonts/Junicode-webfont.woff") format("woff"), url("../fonts/Junicode-webfont.ttf") format("truetype"), url("../fonts/Junicode-webfont.svg#junicoderegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* devonshire-regular - latin */
+@font-face {
+  font-family: "Devonshire";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/devonshire-v8-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Devonshire-Regular"), url("../fonts/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/devonshire-v8-latin-regular.woff2") format("woff2"), url("../fonts/devonshire-v8-latin-regular.woff") format("woff"), url("../fonts/devonshire-v8-latin-regular.ttf") format("truetype"), url("../fonts/devonshire-v8-latin-regular.svg#Devonshire") format("svg");
+  /* Legacy iOS */
+}
+/* source-serif-pro-regular - latin */
+@font-face {
+  font-family: "Source_Serif_Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/source-serif-pro-v7-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Source Serif Pro"), local("SourceSerifPro-Regular"), url("../fonts/source-serif-pro-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/source-serif-pro-v7-latin-regular.woff2") format("woff2"), url("../fonts/source-serif-pro-v7-latin-regular.woff") format("woff"), url("../fonts/source-serif-pro-v7-latin-regular.ttf") format("truetype"), url("../fonts/source-serif-pro-v7-latin-regular.svg#SourceSerifPro") format("svg");
+  /* Legacy iOS */
+}
+/* kaushan-script-regular - latin */
+@font-face {
+  font-family: "Kaushan_Script";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/kaushan-script-v8-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../fonts/kaushan-script-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/kaushan-script-v8-latin-regular.woff2") format("woff2"), url("../fonts/kaushan-script-v8-latin-regular.woff") format("woff"), url("../fonts/kaushan-script-v8-latin-regular.ttf") format("truetype"), url("../fonts/kaushan-script-v8-latin-regular.svg#KaushanScript") format("svg");
+  /* Legacy iOS */
+}
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: "Dancing_Script";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dancing-script-v14-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/dancing-script-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dancing-script-v14-latin-regular.woff2") format("woff2"), url(" ../fonts/dancing-script-v14-latin-regular.woff") format("woff"), url(" ../fonts/dancing-script-v14-latin-regular.ttf") format("truetype"), url(" ../fonts/dancing-script-v14-latin-regular.svg#DancingScript") format("svg");
+  /* Legacy iOS */
+}
+/* caveat-regular - latin */
+@font-face {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/caveat-v7-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Caveat Regular"), local("Caveat-Regular"), url("../fonts/caveat-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/caveat-v7-latin-regular.woff2") format("woff2"), url("../fonts/caveat-v7-latin-regular.woff") format("woff"), url("../fonts/caveat-v7-latin-regular.ttf") format("truetype"), url("../fonts/caveat-v7-latin-regular.svg#Caveat") format("svg");
+  /* Legacy iOS */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v9-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Regular"), local("Poppins-Regular"), url("../fonts/poppins-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v9-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v9-latin-regular.woff") format("woff"), url("../fonts/poppins-v9-latin-regular.ttf") format("truetype"), url("../fonts/poppins-v9-latin-regular.svg#Poppins") format("svg");
+  /* Legacy iOS */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v9-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Bold"), local("Poppins-Bold"), url("../fonts/poppins-v9-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v9-latin-700.woff2") format("woff2"), url("../fonts/poppins-v9-latin-700.woff") format("woff"), url("../fonts/poppins-v9-latin-700.ttf") format("truetype"), url("fonts/poppins-v9-latin-700.svg#Poppins") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "open_sansregular";
+  src: url("../fonts/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("../fonts/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #f7c848;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.centered {
+  width: auto;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.h3-ml {
+  text-align: justify;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.lignemenu {
+  padding: 40px;
+}
+
+.line {
+  display: flex;
+  max-width: auto;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.footer {
+  position: sticky;
+  width: auto;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  font-family: Poppins;
+  font-size: 1.5em;
+}
+
+/*Header*/
+header, footer, .btn {
+  background-color: #579c87;
+  color: #f7c848;
+}
+
+.header {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/*Menus*/
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 48%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.card-content {
+  margin-left: 50px;
+  margin-right: 80px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
+}
+
+.card-content p {
+  font-size: 2em;
+}
+
+.menu {
+  font-family: Caveat;
+}
+
+.menu2 {
+  font-family: Source_Serif_Pro;
+}
+
+.note-enchantee {
+  font-family: Devonshire;
+  background-color: #fcdfdb;
+  color: #3c1218;
+  height: 400px;
+  width: 535px;
+  padding-top: 175px;
+}
+
+.chic-française {
+  font-family: Junicoderegular;
+  font-weight: bold;
+  background-color: #fff5fe;
+  color: #c77412;
+  height: 400px;
+  width: 535px;
+  padding-top: 175px;
+}
+
+.p-chic {
+  background-image: -webkit-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
+  /* For Chrome and Safari */
+  background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
+  /* For old Fx (3.6 to 15) */
+  background-image: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
+  /* For pre-releases of IE 10*/
+  background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
+  /* For old Opera (11.1 to 12.0) */
+  background-image: linear-gradient to right, #d8852e 0%, #905bfd 70%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.delice-papilles {
+  font-family: Dancing_Script;
+  background-color: #f9f9f9;
+  color: #0887fb;
+  height: 400px;
+  width: 535px;
+  padding-top: 175px;
+}
+
+.p-delice {
+  background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  /* For Chrome and Safari */
+  background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  /* For old Fx (3.6 to 15) */
+  background-image: -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  /* For pre-releases of IE 10*/
+  background-image: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  /* For old Opera (11.1 to 12.0) */
+  background-image: linear-gradient to right, #0431df 0%, #0887fb 66%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.palette-gout {
+  background-color: #fdfffd;
+  color: #72bf56;
+  height: 400px;
+  width: 535px;
+  font-family: Kaushan_Script;
+  padding-top: 175px;
+}
+
+.p-palette {
+  background-image: -webkit-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  /* For Chrome and Safari */
+  background-image: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  /* For old Fx (3.6 to 15) */
+  background-image: -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  /* For pre-releases of IE 10*/
+  background-image: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  /* For old Opera (11.1 to 12.0) */
+  background-image: linear-gradient to right, #3d9339 0%, #bfff7e 66%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/*Btn Prochainement*/
+.btn-container {
+  width: auto;
+  justify-content: center;
+  flex-grow: 3;
+  display: flex;
+}
+
+.btn {
+  border-radius: 10px;
+  margin-bottom: 90px;
+  text-align: center;
+  width: 300px;
+  font-family: poppins;
+  font-size: 1.7em;
+  padding: 5px;
+}
+
+/*MENU 1 - La note enchantée*/
+.card-container1 {
+  background-color: #fcdfdb;
+  font-family: Caveat;
+  box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 1.5em;
+  line-height: 2;
+}
+
+.starters1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-courses1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.desserts1 {
+  display: flex;
+  padding-left: 45px;
+}
+
+.prix1 {
+  font-weight: bold;
+  padding-left: 315px;
+  text-align: right;
+}
+
+.content {
+  padding: 0;
+  margin: 0;
+}
+
+/*Titre du menu*/
+.title1-1 {
+  font-family: Devonshire;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+/*Note enchantée, titre de fin*/
+.titlefin {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.noteenchanteefin {
+  font-family: Devonshire;
+  padding: 10px;
+  margin-top: -25px;
+}
+
+.card-container2 {
+  background-color: #fff5fe;
+  font-family: Source_Serif_Pro;
+  box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 1.2em;
+  line-height: 2.5;
+}
+
+.title2-1 {
+  font-family: Junicoderegular;
+  font-size: 2em;
+  background-image: -webkit-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+  /* For Chrome and Safari */
+  background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+  /* For old Fx (3.6 to 15) */
+  background-image: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+  /* For pre-releases of IE 10*/
+  background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+  /* For old Opera (11.1 to 12.0) */
+  background-image: linear-gradient to right, #d8852e 0%, #905bfd 60%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.title2-starters {
+  color: #c67412;
+  font-family: junicoderegular;
+}
+
+.title2-maincourses {
+  color: #a56799;
+  font-family: junicoderegular;
+}
+
+.title2-desserts {
+  color: #6e4ccc;
+  font-family: junicoderegular;
+}
+
+.starters2 {
+  color: #c67412;
+  display: flex;
+}
+
+.main-courses2 {
+  color: #a56799;
+  display: flex;
+}
+
+.desserts2 {
+  color: #6e4ccc;
+}
+
+.ul2 {
+  margin-left: 100px;
+}
+
+.prix2-1 {
+  padding-left: 150px;
+}
+
+.ulprix {
+  margin-left: 100px;
+  font-size: 1.15em;
+  line-height: 2.2em;
+}
+
+.card-container3 {
+  background-color: #edefef;
+  font-family: Caveat;
+  box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 1.2em;
+  line-height: 2;
+}
+
+.title3-1 {
+  font-family: Dancing_Script;
+  background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  /* For Chrome and Safari */
+  background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  /* For old Fx (3.6 to 15) */
+  background-image: -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  /* For pre-releases of IE 10*/
+  background-image: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  /* For old Opera (11.1 to 12.0) */
+  background-image: linear-gradient to right, #0431df 0%, #0887fb 66%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.card-container4 {
+  background-color: #fdfffd;
+  font-family: Caveat;
+  box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 1.2em;
+  line-height: 2;
+}
+
+.containerml {
+  padding-right: 100px;
+  padding-left: 100px;
+  font-family: open_sansregular;
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=style.css.map */
