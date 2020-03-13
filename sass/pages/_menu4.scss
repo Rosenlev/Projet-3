@@ -11,6 +11,55 @@
   padding-right:50px;
   padding-top:75px;
   padding-bottom:75px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 2;
 } 
+
+.title4-1
+{
+  font-family: Kaushan_Script;
+  font-size: 2em;
+background-image: -webkit-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For Chrome and Safari */
+      background-image:    -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For old Fx (3.6 to 15) */
+      background-image:     -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For pre-releases of IE 10*/
+      background-image:      -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For old Opera (11.1 to 12.0) */
+    background-image:linear-gradient (to right, #3d9339 0%, #bfff7e 66%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}  
+
+.starters4
+{
+    display:flex;
+    width: 850px;
+    justify-content: space-between;
+    
+}
+
+.main-courses4
+{
+  display:flex;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.desserts4
+{
+  display:flex;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.lignemenu4
+{
+  padding-top: 30px;
+}
+
+.ulprix4
+{
+  
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.9em;
+}

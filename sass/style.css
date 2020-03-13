@@ -85,6 +85,7 @@
   font-weight: normal;
   font-style: normal;
 }
+/*Liens*/
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   color: #f7c848;
@@ -103,6 +104,7 @@ html, body {
   margin: 0;
 }
 
+/*Titres des documents*/
 h1 {
   text-align: center;
   font-size: 3em;
@@ -133,13 +135,14 @@ img {
   max-height: 300px;
 }
 
+/*Lignes menus*/
 .lignemenu {
   padding: 40px;
 }
 
 .line {
   display: flex;
-  max-width: auto;
+  max-width: 900px;
   justify-content: space-between;
   margin: auto;
 }
@@ -305,8 +308,10 @@ header, footer, .btn {
 }
 
 /*MENU 1 - La note enchantée*/
+/*Containers*/
 .card-container1 {
   background-color: #fcdfdb;
+  color: #3d1319;
   font-family: Caveat;
   box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
   margin-left: 200px;
@@ -321,30 +326,36 @@ header, footer, .btn {
   line-height: 2;
 }
 
+.content {
+  padding: 0;
+  margin: 0;
+}
+
+/*Plats*/
 .starters1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 925px;
 }
 
 .main-courses1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 925px;
 }
 
 .desserts1 {
   display: flex;
-  padding-left: 45px;
+  margin: auto;
+  max-width: 925px;
 }
 
+/*Prix*/
 .prix1 {
   font-weight: bold;
-  padding-left: 315px;
   text-align: right;
-}
-
-.content {
-  padding: 0;
-  margin: 0;
 }
 
 /*Titre du menu*/
@@ -367,6 +378,15 @@ header, footer, .btn {
   margin-top: -25px;
 }
 
+.line1 {
+  display: flex;
+  max-width: 1000px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/*MENU 2 - Le chic à la française*/
+/*Containers*/
 .card-container2 {
   background-color: #fff5fe;
   font-family: Source_Serif_Pro;
@@ -383,6 +403,7 @@ header, footer, .btn {
   line-height: 2.5;
 }
 
+/*Titres*/
 .title2-1 {
   font-family: Junicoderegular;
   font-size: 2em;
@@ -415,6 +436,13 @@ header, footer, .btn {
   font-family: junicoderegular;
 }
 
+.line2 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/*Plats*/
 .starters2 {
   color: #c67412;
   display: flex;
@@ -433,6 +461,7 @@ header, footer, .btn {
   margin-left: 100px;
 }
 
+/*Prix*/
 .prix2-1 {
   padding-left: 150px;
 }
@@ -455,12 +484,18 @@ header, footer, .btn {
   padding-right: 50px;
   padding-top: 75px;
   padding-bottom: 75px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 2;
+}
+
+.content3 {
+  padding: 0;
+  margin: 0;
 }
 
 .title3-1 {
   font-family: Dancing_Script;
+  font-size: 2em;
   background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For Chrome and Safari */
   background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
@@ -475,6 +510,35 @@ header, footer, .btn {
   background-clip: text;
 }
 
+.starters3 {
+  display: flex;
+  width: 780px;
+  justify-content: space-between;
+}
+
+.main-courses3 {
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+}
+
+.desserts3 {
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+}
+
+.lignemenu3 {
+  padding-top: 30px;
+  margin: 0;
+}
+
+.prix3 {
+  font-weight: bold;
+  font-size: 1.15em;
+  line-height: 1.9em;
+}
+
 .card-container4 {
   background-color: #fdfffd;
   font-family: Caveat;
@@ -487,8 +551,53 @@ header, footer, .btn {
   padding-right: 50px;
   padding-top: 75px;
   padding-bottom: 75px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 2;
+}
+
+.title4-1 {
+  font-family: Kaushan_Script;
+  font-size: 2em;
+  background-image: -webkit-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  /* For Chrome and Safari */
+  background-image: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  /* For old Fx (3.6 to 15) */
+  background-image: -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  /* For pre-releases of IE 10*/
+  background-image: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  /* For old Opera (11.1 to 12.0) */
+  background-image: linear-gradient to right, #3d9339 0%, #bfff7e 66%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.starters4 {
+  display: flex;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.main-courses4 {
+  display: flex;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.desserts4 {
+  display: flex;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.lignemenu4 {
+  padding-top: 30px;
+}
+
+.ulprix4 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.9em;
 }
 
 .containerml {

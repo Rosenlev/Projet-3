@@ -11,14 +11,22 @@
   padding-right:50px;
   padding-top:75px;
   padding-bottom:75px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 2;
 } 
+
+
+.content3
+{
+    padding: 0;
+    margin:0;
+}
 
 .title3-1
 {
     
   font-family: Dancing_Script;
+  font-size: 2em;
     background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For Chrome and Safari */
     background-image:    -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For old Fx (3.6 to 15) */
     background-image:     -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For pre-releases of IE 10*/
@@ -27,4 +35,39 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+.starters3
+{
+    display:flex;
+    width: 780px;
+    justify-content: space-between;
+    
+}
+
+.main-courses3
+{
+  display:flex;
+  justify-content: space-between;
+  width: 780px;
+}
+
+.desserts3
+{
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+}
+
+.lignemenu3
+{
+  padding-top: 30px;
+  margin:0;
+}
+
+.prix3
+{
+  font-weight: bold;
+  font-size: 1.15em;
+  line-height: 1.9em;
 }

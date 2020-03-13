@@ -1,4 +1,5 @@
 
+/*Liens*/
 a:link, a:visited, a:hover, a:active {
     text-decoration: none; 
     color:#f7c848;;
@@ -15,6 +16,7 @@ a:link, a:visited, a:hover, a:active {
   margin: 0;
 }
 
+/*Titres des documents*/
 
 h1
 {
@@ -40,6 +42,7 @@ h2, h3
     text-align:justify;
 }
 
+
 img
 
 {
@@ -53,7 +56,7 @@ max-height: 300px;
 
 }
 
-
+/*Lignes menus*/
 .lignemenu
 {
     padding: 40px;
@@ -62,7 +65,7 @@ max-height: 300px;
 
 .line
 {
-    display: flex;
-max-width: auto;
+display: flex;
+max-width: 900px;
 justify-content: space-between;
 margin: auto;}
