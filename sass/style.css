@@ -1,4 +1,15 @@
 @charset "UTF-8";
+@keyframes fadeOut {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
 /*Fonts*/
 /*Junicode*/
 @font-face {
@@ -197,6 +208,13 @@ header, footer, .btn {
 
 .card-content p {
   font-size: 2em;
+  line-height: 2;
+}
+.card-content p:hover {
+  transform: scale(1.2);
+  transition: all 500ms;
+  animation-name: fadeOut;
+  animation-duration: 1000ms;
 }
 
 .menu {

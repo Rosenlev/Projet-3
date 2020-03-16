@@ -22,7 +22,14 @@
   {
     
     font-size: 2em;
+    line-height: 2;
+    &:hover{
+      transform: scale(1.2);
+      transition: all 500ms;
+    animation-name: fadeOut;
+    animation-duration: 1000ms;}
   }
+
   
   .menu
   {
@@ -42,6 +49,7 @@
   height: 400px;
   width: 535px;
   padding-top: 175px;
+
   }
   
   .chic-française
@@ -123,8 +131,7 @@
   }
   
   .btn
-  {
-    border-radius: 10px;
+  {border-radius: 10px;
     margin-bottom:90px;
     text-align: center;
     width: 300px;
@@ -132,4 +139,3 @@
     font-size: 1.7em;
     padding: 5px;
   }
-  
