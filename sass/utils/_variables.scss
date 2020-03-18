@@ -1,4 +1,58 @@
+/*Animations index*/
+/* Animation des titres des menus sur l'index*/
+
 @keyframes fadeOut
 {0%{opacity: 0.2;}
 20%{opacity: 1;}
 100%{opacity: 0.2;}}
+
+/*Effet wiggle "Mentions légales" et "Contact*/
+
+@keyframes wiggle 
+{
+  25%{transform: translateX(3%);}
+  100%{transform: translateX(-3%);}
+}
+
+/*Animation bouton "Prochainement"*/
+
+
+
+.fade
+{
+        opacity:0;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+  
+/*Animations menus*/
+
+/*Animation des titres des catégories dans les menus*/
+
+h3
+{&:hover{
+  &::after{
+  transform: scaleX(1);
+}
+}
+}
+
+h3
+{
+    &::after{
+  content:"";
+  border-bottom: solid 2px;
+  line-height: auto;
+  height: 100%;
+  width: 100%;
+  display: block;
+  transform: scaleX(0);
+  transition-property: transform;
+  transition: 1000ms;
+  transform-origin: 0% 50%;}
+}
+
+

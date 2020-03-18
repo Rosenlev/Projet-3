@@ -24,10 +24,11 @@
     font-size: 2em;
     line-height: 2;
     &:hover{
-      transform: scale(1.2);
-      transition: all 500ms;
+    transform: scale(1.2);
+    transition: all 500ms;
     animation-name: fadeOut;
-    animation-duration: 1000ms;}
+    animation-duration: 1000ms;
+    animation-fill-mode:forwards;}
   }
 
   
@@ -138,4 +139,5 @@
     font-family: poppins;
     font-size: 1.7em;
     padding: 5px;
+    
   }

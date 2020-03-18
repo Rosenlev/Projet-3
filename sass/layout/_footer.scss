@@ -21,3 +21,10 @@
   font-family: Poppins;
   font-size: 1.5em;
 }
+
+.footer p
+{
+  &:hover{
+  animation-name: wiggle;
+  animation-duration: 250ms;}
+}
