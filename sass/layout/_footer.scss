@@ -1,16 +1,21 @@
 
-@media screen and (min-width: 360px)
+@media screen and (min-width: 375px)
+
 {
+  body
+  {box-sizing: border-box;}
+
+
 .footer p
 {
-  animation-name: wiggle;
-  animation-duration: 250ms;
-  animation-iteration-count: infinite;
-}
-}
+
+  font-family: Poppins;
+}}
 
 @media screen and (min-width: 1280px)
 {
+
+
 .footer
 {
   position: sticky;
