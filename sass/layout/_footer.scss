@@ -1,5 +1,16 @@
 
+@media screen and (min-width: 360px)
+{
+.footer p
+{
+  animation-name: wiggle;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+}
+}
 
+@media screen and (min-width: 1280px)
+{
 .footer
 {
   position: sticky;
@@ -27,4 +38,5 @@
   &:hover{
   animation-name: wiggle;
   animation-duration: 250ms;}
+}
 }
