@@ -12,12 +12,15 @@
     opacity: 0.2;
   }
 }
-@keyframes blink {
+@keyframes fadein {
   0% {
     opacity: 0;
   }
+  66% {
+    opacity: 0.5;
+  }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 /*Effet wiggle "Mentions légales" et "Contact*/
@@ -30,6 +33,37 @@
   }
 }
 /*Animation bouton "Prochainement"*/
+.btn .fade1 {
+  opacity: 0;
+}
+.btn .fade2 {
+  opacity: 0;
+}
+.btn .fade3 {
+  opacity: 0;
+}
+.btn:hover .fade1 {
+  animation-name: fadein;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+}
+.btn:hover .fade2 {
+  animation-name: fadein;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-delay: 400ms;
+}
+.btn:hover .fade3 {
+  animation-name: fadein;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-delay: 700ms;
+}
+
+h3:hover::after {
+  transform: scaleX(1);
+}
+
 h3::after {
   content: "";
   border-bottom: solid 2px;
