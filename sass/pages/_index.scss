@@ -1,9 +1,10 @@
 /*Menus*/
 
-
+@media screen and (min-width: 350px)
+{
   .cards {
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       flex: 1 0 48%;
       flex-wrap: wrap;
@@ -13,7 +14,7 @@
     .card-content
     {
       margin-bottom: 25px;
-      margin-top: 50px;
+      margin-top: 25px;
       box-shadow: 2px 1px 12px 2px rgba(0,0,0,0.12);
     }
     
@@ -128,6 +129,7 @@
       justify-content: center;
       flex-grow: 3;
       display:flex;
+      margin-bottom: 10px;
     }
     
     .btn
@@ -138,6 +140,65 @@
       font-size: 1.7em;
       padding: 5px;
     }
+  }
+
+  
+@media screen and (min-width: 768px)
+{.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1 0 48%;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px;
+}
+
+.card-content
+{
+  margin-bottom: 25px;
+  margin-top: 50px;
+  box-shadow: 2px 1px 12px 2px rgba(0,0,0,0.12);
+}
+
+.card-content p
+{
+  padding-top: 60px;
+  font-size: 1.7em;
+  line-height: 2;
+  &:hover{
+  transform: scale(1.2);
+  transition: all 500ms;
+  animation-name: fadeOut;
+  animation-duration: 1000ms;
+  animation-fill-mode:forwards;}
+}
+
+
+.note-enchantee
+{
+min-height: 350px;
+min-width: 250px;
+}
+
+.chic-française
+{
+min-height: 350px;
+min-width: 250px;
+}
+
+.delice-papilles
+{
+min-height: 350px;
+min-width: 250px;
+}
+
+
+.palette-gout
+{
+min-height: 350px;
+min-width: 250px;
+}}
 
 @media screen and (min-width: 1280px)
 {
