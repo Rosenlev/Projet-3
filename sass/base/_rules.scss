@@ -57,15 +57,13 @@ max-height: 300px;
 }
 
 /*Lignes menus*/
-.lignemenu
-{
-    padding: 40px;
-}
 
+@media screen and (min-width: 1280px)
+{
 
 .line
 {
 display: flex;
 min-width: 900px;
-justify-content: space-between;
-margin: auto;}
+justify-content: center;
+margin: auto;}}

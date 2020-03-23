@@ -136,20 +136,61 @@ img {
 }
 
 /*Lignes menus*/
-.lignemenu {
-  padding: 40px;
+@media screen and (min-width: 1280px) {
+  .line {
+    display: flex;
+    min-width: 900px;
+    justify-content: center;
+    margin: auto;
+  }
+}
+body {
+  box-sizing: border-box;
 }
 
-.line {
+.footer {
   display: flex;
-  min-width: 900px;
   justify-content: space-between;
-  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  font-family: Poppins;
+  font-size: 1.5em;
 }
 
-@media screen and (min-width: 375px) {
+.footer a {
+  font-family: Poppins;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  position: sticky;
+  width: auto;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.footer a {
+  display: flex;
+}
+.footer a:hover {
+  animation-name: wiggle;
+  animation-duration: 250ms;
+}
+
+@media screen and (min-width: 666px) {
   body {
     box-sizing: border-box;
+  }
+
+  .footer {
+    position: sticky;
+    width: auto;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
   }
 
   .footer {
@@ -168,41 +209,12 @@ img {
     justify-content: space-between;
   }
 
-  .footer {
-    position: sticky;
-    width: auto;
-    left: 0;
-    bottom: 0;
-    z-index: 1;
-  }
-}
-@media screen and (min-width: 768px) {
-  body {
-    box-sizing: border-box;
-  }
-
-  .footer {
-    position: sticky;
-    width: auto;
-    left: 0;
-    bottom: 0;
-    z-index: 1;
-  }
-
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: auto;
-    font-family: Poppins;
-    font-size: 1.5em;
-  }
-
   .footer a {
-    font-family: Poppins;
     display: flex;
-    justify-content: space-between;
+  }
+  .footer a:hover {
+    animation-name: wiggle;
+    animation-duration: 250ms;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -242,6 +254,7 @@ header, footer, .btn {
 .header {
   padding-top: 1px;
   padding-bottom: 1px;
+  margin-bottom: 10px;
 }
 
 /*Menus*/
@@ -571,177 +584,154 @@ header, footer, .btn {
 }
 /*MENU 1 - La note enchantée*/
 /*Containers*/
-@media screen and (min-width: 350px) {
+.card-container1 {
+  background-color: #fcdfdb;
+  color: #3d1319;
+  font-family: Caveat;
+  box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
+  padding-top: 20px;
+  font-size: 1.3em;
+  width: 345px;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  padding: 0;
+  margin: 0;
+}
+
+/*Plats*/
+.starters1 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.main-courses1 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.desserts1 {
+  display: flex;
+  margin: auto;
+}
+
+/*Prix*/
+.prix1 {
+  font-weight: bold;
+  text-align: right;
+}
+
+/*Titre du menu*/
+.title1-1 {
+  font-family: Devonshire;
+  text-align: center;
+  font-size: 1em;
+}
+
+.lignemenu {
+  width: 90%;
+  height: 90%;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.imgnote1 {
+  width: 20%;
+  height: 20%;
+}
+
+/*Note enchantée, titre de fin*/
+.titlefin {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.noteenchanteefin {
+  font-family: Devonshire;
+  padding: 10px;
+  margin-top: -25px;
+}
+
+.line1 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.content {
+  padding: 7px;
+  margin: 0;
+}
+
+/*Plats*/
+.starters1 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  min-width: 250px;
+}
+
+.main-courses1 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  min-width: 250px;
+}
+
+.desserts1 {
+  display: flex;
+  margin: auto;
+  min-width: 250px;
+}
+
+/*Prix*/
+.prix1 {
+  font-weight: bold;
+  text-align: right;
+  line-height: 2.5;
+}
+
+/*Titre du menu*/
+.title1-1 {
+  font-family: Devonshire;
+  text-align: center;
+  font-size: 1em;
+}
+
+@media screen and (min-width: 666px) {
   .card-container1 {
-    background-color: #fcdfdb;
-    color: #3d1319;
-    font-family: Caveat;
-    box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    font-size: 1.5em;
-    line-height: 2;
-  }
-
-  .content {
-    padding: 0;
-    margin: 0;
-  }
-
-  /*Plats*/
-  .starters1 {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-  }
-
-  .main-courses1 {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-  }
-
-  .desserts1 {
-    display: flex;
-    margin: auto;
-  }
-
-  /*Prix*/
-  .prix1 {
-    font-weight: bold;
-    text-align: right;
-  }
-
-  /*Titre du menu*/
-  .title1-1 {
-    font-family: Devonshire;
-    text-align: center;
-    font-size: 1.6em;
-  }
-
-  /*Note enchantée, titre de fin*/
-  .titlefin {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-  }
-
-  .noteenchanteefin {
-    font-family: Devonshire;
-    padding: 10px;
-    margin-top: -25px;
-  }
-
-  .line1 {
-    display: flex;
-    max-width: 1000px;
-    justify-content: space-between;
-    margin: auto;
-  }
-
-  .card-container1 {
-    background-color: #fcdfdb;
-    color: #3d1319;
-    font-family: Caveat;
-    box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    font-size: 1.5em;
-    line-height: 2;
-  }
-
-  .content {
-    padding: 0;
-    margin: 0;
-  }
-
-  /*Plats*/
-  .starters1 {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    max-width: 925px;
-  }
-
-  .main-courses1 {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    max-width: 925px;
-  }
-
-  .desserts1 {
-    display: flex;
-    margin: auto;
-    max-width: 925px;
-  }
-
-  /*Prix*/
-  .prix1 {
-    font-weight: bold;
-    text-align: right;
-  }
-
-  /*Titre du menu*/
-  .title1-1 {
-    font-family: Devonshire;
-    text-align: center;
-    font-size: 1.6em;
-  }
-
-  /*Note enchantée, titre de fin*/
-  .titlefin {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-  }
-
-  .noteenchanteefin {
-    font-family: Devonshire;
-    padding: 10px;
-    margin-top: -25px;
-  }
-
-  .line1 {
-    display: flex;
-    max-width: 1000px;
-    justify-content: space-between;
-    margin: auto;
+    width: 640px;
   }
 }
+.prix1 {
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 760px) {
+  .card-container1 {
+    width: 730px;
+    margin-left: 18px;
+  }
+}
+.prix1 {
+  line-height: 1.2;
+}
+
 @media screen and (min-width: 1280px) {
   .card-container1 {
-    background-color: #fcdfdb;
-    color: #3d1319;
-    font-family: Caveat;
-    box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     font-size: 1.5em;
-    line-height: 2;
-  }
-
-  .content {
-    padding: 0;
-    margin: 0;
+    line-height: 2.5;
   }
 
   /*Plats*/
@@ -749,29 +739,29 @@ header, footer, .btn {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    max-width: 925px;
   }
 
   .main-courses1 {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    max-width: 925px;
   }
 
   .desserts1 {
     display: flex;
     margin: auto;
-    max-width: 925px;
   }
 
   /*Prix*/
   .prix1 {
     font-weight: bold;
     text-align: right;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5;
   }
 
-  /*Titre du menu*/
+  /*Titres du menu*/
   .title1-1 {
     font-family: Devonshire;
     text-align: center;
@@ -798,80 +788,9 @@ header, footer, .btn {
     margin: auto;
   }
 
-  .card-container1 {
-    background-color: #fcdfdb;
-    color: #3d1319;
-    font-family: Caveat;
-    box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    font-size: 1.5em;
-    line-height: 2;
-  }
-
-  .content {
-    padding: 0;
-    margin: 0;
-  }
-
-  /*Plats*/
-  .starters1 {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    max-width: 925px;
-  }
-
-  .main-courses1 {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    max-width: 925px;
-  }
-
-  .desserts1 {
-    display: flex;
-    margin: auto;
-    max-width: 925px;
-  }
-
-  /*Prix*/
-  .prix1 {
-    font-weight: bold;
-    text-align: right;
-  }
-
-  /*Titre du menu*/
-  .title1-1 {
-    font-family: Devonshire;
-    text-align: center;
-    font-size: 1.6em;
-  }
-
-  /*Note enchantée, titre de fin*/
-  .titlefin {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-  }
-
-  .noteenchanteefin {
-    font-family: Devonshire;
-    padding: 10px;
-    margin-top: -25px;
-  }
-
-  .line1 {
-    display: flex;
-    max-width: 1000px;
-    justify-content: space-between;
-    margin: auto;
+  .lignemenu {
+    width: auto;
+    height: auto;
   }
 }
 /*MENU 2 - Le chic à la française*/
@@ -880,22 +799,25 @@ header, footer, .btn {
   background-color: #fff5fe;
   font-family: Source_Serif_Pro;
   box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  font-size: 1.2em;
-  line-height: 2.5;
+  padding-top: 20px;
+  font-size: 0.9em;
+  line-height: 2;
+  width: 345px;
+  margin: auto;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.content2 {
+  padding: 5px;
+  margin: 0;
 }
 
 /*Titres*/
 .title2-1 {
   font-family: Junicoderegular;
-  font-size: 2em;
+  font-size: 1.5em;
   background-image: -webkit-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
   /* For Chrome and Safari */
   background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
@@ -925,6 +847,13 @@ header, footer, .btn {
   font-family: junicoderegular;
 }
 
+.lignemenu {
+  width: 90%;
+  height: 90%;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
 .line2 {
   display: flex;
   justify-content: space-between;
@@ -935,32 +864,155 @@ header, footer, .btn {
 .starters2 {
   color: #c67412;
   display: flex;
+  justify-content: space-between;
+  margin: auto;
+  min-width: 250px;
 }
 
 .main-courses2 {
   color: #a56799;
   display: flex;
+  justify-content: space-between;
+  margin: auto;
+  min-width: 250px;
+}
+
+.ulprixmain2 {
+  line-height: 3.5;
 }
 
 .desserts2 {
   color: #6e4ccc;
+  justify-content: space-between;
+  margin: auto;
+  min-width: 250px;
 }
 
-.ul2 {
-  margin-left: 100px;
-}
+@media screen and (min-width: 666px) {
+  .card-container2 {
+    min-width: 640px;
+  }
 
-/*Prix*/
-.prix2-1 {
-  padding-left: 150px;
-}
+  .content {
+    width: 600px;
+    margin: 0;
+  }
 
-.ulprix {
-  margin-left: 100px;
-  font-size: 1.15em;
-  line-height: 2.2em;
-}
+  .prix1 {
+    line-height: 1.2;
+  }
 
+  .ulprixmain2 {
+    line-height: 2;
+  }
+}
+@media screen and (min-width: 760px) {
+  .card-container2 {
+    width: 730px;
+    margin-left: 18px;
+    font-size: 0.9em;
+  }
+
+  .prix1 {
+    line-height: 1.2;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .card-container2 {
+    background-color: #fff5fe;
+    font-family: Source_Serif_Pro;
+    box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 1000px;
+    font-size: 1.2em;
+    line-height: 2.5;
+    margin: auto;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /*Titres*/
+  .title2-1 {
+    font-family: Junicoderegular;
+    font-size: 2em;
+    background-image: -webkit-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+    /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+    /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+    /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+    /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient to right, #d8852e 0%, #905bfd 60%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .lignemenu {
+    width: auto;
+    height: auto;
+  }
+
+  .title2-starters {
+    color: #c67412;
+    font-family: junicoderegular;
+  }
+
+  .title2-maincourses {
+    color: #a56799;
+    font-family: junicoderegular;
+  }
+
+  .title2-desserts {
+    color: #6e4ccc;
+    font-family: junicoderegular;
+  }
+
+  .line2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  /*Plats*/
+  .starters2 {
+    color: #c67412;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .main-courses2 {
+    color: #a56799;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .desserts2 {
+    color: #6e4ccc;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .ul2 {
+    margin-left: 100px;
+  }
+
+  /*Prix*/
+  .prix2-1 {
+    padding-left: 150px;
+  }
+
+  .ulprix {
+    margin-left: 100px;
+    font-size: 1.15em;
+    line-height: 2.2em;
+  }
+}
 .card-container3 {
   background-color: #edefef;
   font-family: Caveat;

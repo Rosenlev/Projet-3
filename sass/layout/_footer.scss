@@ -1,8 +1,4 @@
-
-@media screen and (min-width: 375px)
-
-{
-  body
+body
   {box-sizing: border-box;}
 
 
@@ -33,9 +29,20 @@
   left:0;
   bottom:0;
   z-index: 1;
-}}
+}
 
-@media screen and (min-width: 768px)
+
+.footer a
+{
+  display: flex;
+  &:hover{
+  animation-name: wiggle;
+  animation-duration: 250ms;}
+}
+
+
+
+@media screen and (min-width: 666px)
 
 {
   body
@@ -68,7 +75,18 @@
   font-family: Poppins;
   display: flex;
   justify-content: space-between;
-}}
+}
+
+
+.footer a
+{
+  display: flex;
+  &:hover{
+  animation-name: wiggle;
+  animation-duration: 250ms;}
+}
+}
+
 
 @media screen and (min-width: 1280px)
 {
