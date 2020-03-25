@@ -588,6 +588,7 @@ header, footer, .btn {
   box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
   padding-top: 20px;
   font-size: 1em;
+  line-height: 1.5;
   width: 345px;
   margin: auto;
   margin-bottom: 25px;
@@ -605,24 +606,30 @@ header, footer, .btn {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  max-width: 90%;
+  margin-left: 40px;
 }
 
 .main-courses1 {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  max-width: 90%;
+  margin-left: 40px;
 }
 
 .desserts1 {
   display: flex;
   margin: auto;
+  max-width: 90%;
+  margin-left: 40px;
 }
 
 /*Prix*/
 .prix1 {
   font-weight: bold;
   text-align: right;
-  line-height: 2.5;
+  line-height: 2.3;
 }
 
 /*Titre du menu*/
@@ -708,13 +715,8 @@ header, footer, .btn {
     min-width: 640px;
   }
 
-  .content {
-    width: 600px;
-    margin: 0;
-  }
-
   .prix1 {
-    line-height: 1.2;
+    line-height: 2;
   }
 }
 @media screen and (min-width: 760px) {
@@ -723,7 +725,7 @@ header, footer, .btn {
   }
 
   .prix1 {
-    line-height: 1.2;
+    line-height: 1.5;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -737,22 +739,23 @@ header, footer, .btn {
     line-height: 2.5;
   }
 
+  .content {
+    width: 950px;
+  }
+
   /*Plats*/
   .starters1 {
     display: flex;
     justify-content: space-between;
-    margin: auto;
   }
 
   .main-courses1 {
     display: flex;
     justify-content: space-between;
-    margin: auto;
   }
 
   .desserts1 {
     display: flex;
-    margin: auto;
   }
 
   /*Prix*/
@@ -786,14 +789,17 @@ header, footer, .btn {
 
   .line1 {
     display: flex;
-    max-width: 1000px;
-    justify-content: space-between;
+    min-width: auto;
+    justify-content: center;
     margin: auto;
   }
 
   .lignemenu {
     width: auto;
     height: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 /*MENU 2 - Le chic à la française*/
@@ -896,12 +902,12 @@ header, footer, .btn {
     min-width: 640px;
   }
 
-  .content {
+  .content2 {
     width: 600px;
     margin: 0;
   }
 
-  .prix1 {
+  .prix2 {
     line-height: 1.2;
   }
 
@@ -915,7 +921,7 @@ header, footer, .btn {
     font-size: 0.9em;
   }
 
-  .prix1 {
+  .prix2 {
     line-height: 1.2;
   }
 }
@@ -1134,8 +1140,8 @@ header, footer, .btn {
   .main-courses3 {
     display: flex;
     justify-content: space-between;
-    max-width: 80%;
     margin-left: 60px;
+    max-width: 80%;
   }
 
   .desserts3 {
