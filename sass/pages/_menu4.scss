@@ -64,7 +64,7 @@ margin: auto;
 {
   width: 90%;
   height: auto;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -74,7 +74,14 @@ margin: auto;
   
   font-size: 1em;
   font-weight: bold;
-  line-height: 1.9em;
+  line-height: 3.5em;
+}
+
+.ulprix4-3
+{
+  line-height: 3;
+  
+  font-weight: bold;
 }
 
 
@@ -100,10 +107,20 @@ margin: auto;
   }
   
   
-  .prix4
-  {
-      line-height: 2;
-  }
+.ulprix4
+{
+  
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.ulprix4-3
+{
+  line-height: 2;
+  
+  font-weight: bold;
+}
 }
 
 @media screen and (min-width: 1280px)
@@ -148,13 +165,21 @@ margin: auto;
 }
 
 /*Prix*/
-.prix4
+
+
+.ulprix4
 {
-font-weight: bold;
-text-align: right;
-display:flex;
-justify-content: space-between;
-line-height: 2;
+  
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+.ulprix4-3
+{
+  line-height: 2.5;
+  font-weight: bold;
+
 }
 
 

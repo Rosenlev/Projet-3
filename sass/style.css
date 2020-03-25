@@ -1071,16 +1071,23 @@ header, footer, .btn {
 .lignemenu3 {
   width: 90%;
   height: auto;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ulprix3-3 {
+  line-height: 1.5;
 }
 
 .prix3 {
   font-weight: bold;
   font-size: 1.15em;
-  line-height: 2.5em;
+  line-height: 2.5;
 }
 
 .ulprix3-2 {
-  line-height: 3em;
+  line-height: 3;
 }
 
 @media screen and (min-width: 660px) {
@@ -1089,14 +1096,14 @@ header, footer, .btn {
   }
 
   .prix3 {
-    line-height: 2;
+    line-height: 1.5;
   }
 
   .ulprix3-2 {
     line-height: 2.3;
   }
 }
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 760px) {
   .card-container3 {
     width: 730px;
   }
@@ -1106,7 +1113,36 @@ header, footer, .btn {
   }
 
   .ulprix3-2 {
-    line-height: 2.3;
+    line-height: 1.8;
+  }
+
+  .starters3 {
+    margin-left: 60px;
+    max-width: 80%;
+  }
+
+  .main-courses3 {
+    margin-left: 60px;
+    max-width: 80%;
+  }
+
+  .desserts3 {
+    margin-left: 60px;
+    max-width: 80%;
+  }
+
+  .line3 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .lignemenu3 {
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1115,7 +1151,6 @@ header, footer, .btn {
     display: flex;
     justify-content: center;
     margin: auto;
-    padding-bottom: 50px;
     font-size: 1.5em;
     line-height: 2.5;
   }
@@ -1232,7 +1267,7 @@ header, footer, .btn {
 .lignemenu4 {
   width: 90%;
   height: auto;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -1240,7 +1275,12 @@ header, footer, .btn {
 .ulprix4 {
   font-size: 1em;
   font-weight: bold;
-  line-height: 1.9em;
+  line-height: 3.5em;
+}
+
+.ulprix4-3 {
+  line-height: 3;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 660px) {
@@ -1257,8 +1297,15 @@ header, footer, .btn {
     width: 730px;
   }
 
-  .prix4 {
+  .ulprix4 {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2em;
+  }
+
+  .ulprix4-3 {
     line-height: 2;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1296,12 +1343,15 @@ header, footer, .btn {
   }
 
   /*Prix*/
-  .prix4 {
+  .ulprix4 {
+    font-size: 1em;
     font-weight: bold;
-    text-align: right;
-    display: flex;
-    justify-content: space-between;
-    line-height: 2;
+    line-height: 2.5;
+  }
+
+  .ulprix4-3 {
+    line-height: 2.5;
+    font-weight: bold;
   }
 
   .line4 {

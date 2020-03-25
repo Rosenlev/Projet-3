@@ -64,21 +64,31 @@ margin: auto;
 {
   width: 90%;
   height: auto;
-  
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.ulprix3-3
+{
+  line-height: 1.5;
 }
 
 .prix3
 {
   font-weight: bold;
   font-size: 1.15em;
-  line-height: 2.5em;
+  line-height: 2.5;
 }
 
 .ulprix3-2
 {
   
-  line-height: 3em;
+  line-height: 3;
 }
+
+
 
 
 @media screen and (min-width: 660px)
@@ -91,7 +101,7 @@ margin: auto;
     
     .prix3
     {
-        line-height: 2;
+        line-height: 1.5;
         
     }
 
@@ -101,22 +111,55 @@ margin: auto;
     
 }
 
-@media screen and (min-width: 780px)
+@media screen and (min-width: 760px)
 {
   .card-container3
   {
       width: 730px;
   }
   
-  
   .prix3
   {
-      line-height: 2;
+  line-height: 2;
   }
 
-  
   .ulprix3-2
-  {line-height: 2.3;}
+  {line-height: 1.8;}
+
+  .starters3
+    {
+        margin-left:60px;
+        max-width: 80%;
+    }
+    
+    .main-courses3
+    {
+        margin-left:60px;
+        max-width: 80%;
+    }
+    
+    .desserts3
+    {
+        margin-left:60px;
+        max-width: 80%;
+    }
+
+    
+    .line3
+    {
+        
+    display: flex;
+    justify-content: center;
+    margin: auto;}
+    
+    .lignemenu3
+    {
+      width: auto;
+      height: auto;
+      padding-top: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 }
 
 @media screen and (min-width: 1280px)
@@ -128,7 +171,6 @@ margin: auto;
       display: flex;
       justify-content: center;
       margin: auto;
-      padding-bottom: 50px;
       font-size: 1.5em;
       line-height: 2.5;
     } 
