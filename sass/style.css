@@ -274,7 +274,8 @@ header, footer, .btn {
   }
 
   .card-content h2 {
-    font-size: 1.7em;
+    margin-top: 80px;
+    font-size: 2em;
     line-height: 2;
   }
   .card-content h2:hover {
@@ -439,6 +440,11 @@ header, footer, .btn {
   .palette-gout {
     min-height: 350px;
     min-width: 250px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cards {
+    justify-content: space-evenly;
   }
 }
 @media screen and (min-width: 1280px) {
