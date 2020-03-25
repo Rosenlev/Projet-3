@@ -59,15 +59,15 @@
 
 .lignemenu
 {
-  width: 90%;
-  height: 90%;
+    width: 90%;
+    height: auto;
   padding-top: 20px;
   padding-left: 5px;
 }
 .line2
 {
 display: flex;
-justify-content: space-between;
+justify-content: center;
 margin: auto;}
 
 /*Plats*/
@@ -76,8 +76,8 @@ margin: auto;}
     color:#c67412;
     display:flex;
     justify-content: space-between;
-    margin: auto;
-min-width: 250px;
+    max-width: 70%;
+    margin-left:40px;
     
 }
 
@@ -85,22 +85,26 @@ min-width: 250px;
 {
     color:#a56799;
     display:flex;
-    
     justify-content: space-between;
-    margin: auto;
-min-width: 250px;
+    max-width: 70%;
+    margin-left:40px;
 }
 
+.prix2
+{
+    margin-left: 10px;
+    line-height: 2.8;
+}
 .ulprixmain2
-{line-height: 3.5}
+{line-height: 5}
 
 .desserts2
 {
     color: #6e4ccc;
     
     justify-content: space-between;
-    margin: auto;
-min-width: 250px;
+    max-width: 70%;
+    margin-left:40px;
     
 }
 
@@ -111,22 +115,15 @@ min-width: 250px;
         min-width: 640px;
     }
 
-
-    .content2
-    {
-        width: 600px;
-        margin:0;
-    }
-
     .prix2
     {
-        line-height: 1.2;
+        line-height: 2;
         
     }
 
     
 .ulprixmain2
-{line-height: 2}
+{line-height: 2.3}
 
 }
 
@@ -138,11 +135,30 @@ min-width: 250px;
         width: 730px;
   font-size: 0.9em;
     }
+
+    .starters2
+    {
+        
+        margin-left:60px;
+        max-width: 80%;
+    }
+    
+    .main-courses2
+    {
+        margin-left:60px;
+        max-width: 80%;
+    }
+    
+    .desserts2
+    {
+        margin-left:60px;
+        max-width: 80%;
+    }
     
     
     .prix2
     {
-        line-height: 1.2;
+        line-height: 2;
     }
 }
 
@@ -151,18 +167,16 @@ min-width: 250px;
 {
     .card-container2
     {
-      background-color: #fff5fe;
-      font-family: Source_Serif_Pro;
-      box-shadow: 2px 1px 12px 2px rgba(0,0,0,0.12);
+      
       padding-top:75px;
       padding-bottom:75px;
       width: 1000px;
-      font-size: 1.2em;
-        line-height: 2.5;
-        margin: auto;
-        margin-bottom: 25px;
-        display: flex;
-        justify-content: center;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      padding-bottom: 50px;
+      font-size: 1.5em;
+      line-height: 2.5;
     } 
     
     /*Titres*/
@@ -187,28 +201,6 @@ min-width: 250px;
   height: auto;
   
 }
-    
-    .title2-starters
-    {
-        
-        color:#c67412;
-        font-family: junicoderegular;
-    }
-    .title2-maincourses
-    {
-        
-        color:#a56799;
-        
-        font-family: junicoderegular;
-    }
-    .title2-desserts
-    {
-        
-        color: #6e4ccc;
-        font-family: junicoderegular;
-    }
-    
-    
     .line2
     {
     display: flex;
@@ -218,28 +210,26 @@ min-width: 250px;
     /*Plats*/
     .starters2
     {
-        color:#c67412;
         display:flex;
         justify-content: space-between;
-        margin: auto;
+        margin-left:60px;
+        max-width: 80%;
         
     }
     
     .main-courses2
     {
-        color:#a56799;
         display:flex;
-        
-    justify-content: space-between;
-    margin: auto;
+        justify-content: space-between;
+        margin-left:60px;
+        max-width: 80%;
     }
     
     .desserts2
     {
-        color: #6e4ccc;
-        
     justify-content: space-between;
-    margin: auto;
+    margin-left:60px;
+    max-width: 80%;
         
     }
     
@@ -248,16 +238,13 @@ min-width: 250px;
         margin-left: 100px;
     }
     
-    /*Prix*/
-    .prix2-1
+    .ulprixmain2
     {
-    
-        padding-left: 150px;
+        line-height: 4;
     }
     .ulprix
     {
         margin-left: 100px;
-        font-size: 1.15em;
         line-height: 2.2em;
     }
 }
