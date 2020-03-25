@@ -3,45 +3,36 @@
   background-color: #edefef;
   font-family: Caveat;
   box-shadow: 2px 1px 12px 2px rgba(0,0,0,0.12);
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-left: 50px;
-  padding-right:50px;
-  padding-top:75px;
-  padding-bottom:75px;
-  font-size: 1.5em;
+  width: 345px;
+  margin: auto;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
   line-height: 2;
 } 
-
-
-.content3
-{
-    padding: 0;
-    margin:0;
-}
 
 .title3-1
 {
     
   font-family: Dancing_Script;
-  font-size: 2em;
-    background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For Chrome and Safari */
-    background-image:    -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For old Fx (3.6 to 15) */
-    background-image:     -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For pre-releases of IE 10*/
-    background-image:      -o-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For old Opera (11.1 to 12.0) */
-  background-image:linear-gradient (to right, #0431df 0%, #0887fb 66%);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  font-size: 1.5em;
+  background-image: -webkit-gradient(linear, to right, #0431df 0%, #0887fb 66%); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(to right, #0431df 0%, #0887fb 66%); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #0431df 0%, #0887fb 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .starters3
 {
     display:flex;
-    width: 780px;
+    width: auto;
     justify-content: space-between;
+    max-width: 70%;
+    margin-left:40px;
     
 }
 
@@ -49,25 +40,155 @@
 {
   display:flex;
   justify-content: space-between;
-  width: 780px;
+  max-width: 70%;
+    margin-left:40px;
 }
 
 .desserts3
 {
   display: flex;
   justify-content: space-between;
-  width: 780px;
+  max-width: 70%;
+  margin-left:40px;
+}
+
+.line3
+{
+    
+display: flex;
+justify-content: center;
+margin: auto;
 }
 
 .lignemenu3
 {
-  padding-top: 30px;
-  margin:0;
+  width: 90%;
+  height: auto;
+  
 }
 
 .prix3
 {
   font-weight: bold;
   font-size: 1.15em;
-  line-height: 1.9em;
+  line-height: 2.5em;
+}
+
+.ulprix3-2
+{
+  
+  line-height: 3em;
+}
+
+
+@media screen and (min-width: 660px)
+{
+  .card-container3
+    {
+        min-width: 640px;
+    }
+    
+    
+    .prix3
+    {
+        line-height: 2;
+        
+    }
+
+    
+    .ulprix3-2
+    {line-height: 2.3;}
+    
+}
+
+@media screen and (min-width: 780px)
+{
+  .card-container3
+  {
+      width: 730px;
+  }
+  
+  
+  .prix3
+  {
+      line-height: 2;
+  }
+
+  
+  .ulprix3-2
+  {line-height: 2.3;}
+}
+
+@media screen and (min-width: 1280px)
+{
+  
+    .card-container3
+    {
+      width: 1000px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      padding-bottom: 50px;
+      font-size: 1.5em;
+      line-height: 2.5;
+    } 
+    
+    /*Plats*/
+    .starters3
+    {
+        display:flex;
+        justify-content: space-between;
+    margin-left:60px;
+    
+  max-width: 80%;
+    }
+    
+    .main-courses3
+    {
+        display:flex;
+        justify-content: space-between;
+        
+  max-width: 80%;
+    margin-left:60px;
+    }
+    
+    .desserts3
+    {
+        display:flex;
+        justify-content: space-between;
+    margin-left:60px;
+    
+  max-width: 80%;
+    }
+    
+    /*Prix*/
+    .prix3
+    {
+    font-weight: bold;
+    text-align: right;
+    display:flex;
+    justify-content: space-between;
+    line-height: 2;
+    }
+
+    .ulprix3-2
+    {line-height: 2.3;}
+  
+    
+    .line3
+    {
+        
+    display: flex;
+    min-width: 900px;
+    justify-content: center;
+    margin: auto;}
+    
+    .lignemenu3
+    {
+      width: auto;
+      height: auto;
+      padding-top: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 }

@@ -120,6 +120,7 @@ ul {
 
 h2, h3 {
   text-align: center;
+  font-weight: normal;
 }
 
 .h3-ml {
@@ -139,8 +140,6 @@ img {
 @media screen and (min-width: 1280px) {
   .line {
     display: flex;
-    min-width: 900px;
-    justify-content: center;
     margin: auto;
   }
 }
@@ -274,11 +273,11 @@ header, footer, .btn {
     box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
   }
 
-  .card-content p {
+  .card-content h2 {
     font-size: 1.7em;
     line-height: 2;
   }
-  .card-content p:hover {
+  .card-content h2:hover {
     transform: scale(1.2);
     transition: all 500ms;
     animation-name: fadeOut;
@@ -314,7 +313,7 @@ header, footer, .btn {
   }
 
   .p-chic {
-    background-image: -webkit-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
+    background-image: -webkit-gradient(linear, to right, #d8852e 0%, #905bfd 70%);
     /* For Chrome and Safari */
     background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
     /* For old Fx (3.6 to 15) */
@@ -322,10 +321,9 @@ header, footer, .btn {
     /* For pre-releases of IE 10*/
     background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
     /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #d8852e 0%, #905bfd 70%;
-    color: transparent;
+    background-image: linear-gradient(to right, #d8852e 0%, #905bfd 70%);
     -webkit-background-clip: text;
-    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .delice-papilles {
@@ -338,7 +336,7 @@ header, footer, .btn {
   }
 
   .p-delice {
-    background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+    background-image: -webkit-gradient(to right, #0431df 0%, #0887fb 66%);
     /* For Chrome and Safari */
     background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
     /* For old Fx (3.6 to 15) */
@@ -346,10 +344,9 @@ header, footer, .btn {
     /* For pre-releases of IE 10*/
     background-image: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
     /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #0431df 0%, #0887fb 66%;
-    color: transparent;
+    background-image: linear-gradient(to right, #0431df 0%, #0887fb 66%);
     -webkit-background-clip: text;
-    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .palette-gout {
@@ -362,7 +359,7 @@ header, footer, .btn {
   }
 
   .p-palette {
-    background-image: -webkit-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+    background-image: -webkit-gradient(to right, #3d9339 0%, #bfff7e 66%);
     /* For Chrome and Safari */
     background-image: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
     /* For old Fx (3.6 to 15) */
@@ -370,7 +367,7 @@ header, footer, .btn {
     /* For pre-releases of IE 10*/
     background-image: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
     /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #3d9339 0%, #bfff7e 66%;
+    background-image: linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -590,10 +587,10 @@ header, footer, .btn {
   font-family: Caveat;
   box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
   padding-top: 20px;
-  font-size: 1.3em;
+  font-size: 1em;
   width: 345px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   display: flex;
   justify-content: center;
 }
@@ -625,6 +622,7 @@ header, footer, .btn {
 .prix1 {
   font-weight: bold;
   text-align: right;
+  line-height: 2.5;
 }
 
 /*Titre du menu*/
@@ -707,29 +705,34 @@ header, footer, .btn {
 
 @media screen and (min-width: 666px) {
   .card-container1 {
-    width: 640px;
+    min-width: 640px;
+  }
+
+  .content {
+    width: 600px;
+    margin: 0;
+  }
+
+  .prix1 {
+    line-height: 1.2;
   }
 }
-.prix1 {
-  line-height: 1.2;
-}
-
 @media screen and (min-width: 760px) {
   .card-container1 {
     width: 730px;
-    margin-left: 18px;
+  }
+
+  .prix1 {
+    line-height: 1.2;
   }
 }
-.prix1 {
-  line-height: 1.2;
-}
-
 @media screen and (min-width: 1280px) {
   .card-container1 {
     width: 1000px;
     display: flex;
     justify-content: center;
     margin: auto;
+    padding-bottom: 50px;
     font-size: 1.5em;
     line-height: 2.5;
   }
@@ -818,7 +821,7 @@ header, footer, .btn {
 .title2-1 {
   font-family: Junicoderegular;
   font-size: 1.5em;
-  background-image: -webkit-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+  background-image: -webkit-gradient(to right, #d8852e 0%, #905bfd 80%);
   /* For Chrome and Safari */
   background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
   /* For old Fx (3.6 to 15) */
@@ -826,7 +829,7 @@ header, footer, .btn {
   /* For pre-releases of IE 10*/
   background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
   /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient to right, #d8852e 0%, #905bfd 60%;
+  background-image: linear-gradient(to right, #d8852e 0%, #905bfd 60%);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -909,7 +912,6 @@ header, footer, .btn {
 @media screen and (min-width: 760px) {
   .card-container2 {
     width: 730px;
-    margin-left: 18px;
     font-size: 0.9em;
   }
 
@@ -937,7 +939,7 @@ header, footer, .btn {
   .title2-1 {
     font-family: Junicoderegular;
     font-size: 2em;
-    background-image: -webkit-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+    background-image: -webkit-gradient(to right, #d8852e 0%, #905bfd 80%);
     /* For Chrome and Safari */
     background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
     /* For old Fx (3.6 to 15) */
@@ -945,10 +947,9 @@ header, footer, .btn {
     /* For pre-releases of IE 10*/
     background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
     /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #d8852e 0%, #905bfd 60%;
-    color: transparent;
+    background-image: linear-gradient(to right, #d8852e 0%, #905bfd 60%);
     -webkit-background-clip: text;
-    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .lignemenu {
@@ -1017,27 +1018,19 @@ header, footer, .btn {
   background-color: #edefef;
   font-family: Caveat;
   box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  font-size: 1.5em;
+  width: 345px;
+  margin: auto;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
   line-height: 2;
-}
-
-.content3 {
-  padding: 0;
-  margin: 0;
 }
 
 .title3-1 {
   font-family: Dancing_Script;
-  font-size: 2em;
-  background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  font-size: 1.5em;
+  background-image: -webkit-gradient(linear, to right, #0431df 0%, #0887fb 66%);
   /* For Chrome and Safari */
   background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For old Fx (3.6 to 15) */
@@ -1045,61 +1038,158 @@ header, footer, .btn {
   /* For pre-releases of IE 10*/
   background-image: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient to right, #0431df 0%, #0887fb 66%;
-  color: transparent;
+  background-image: linear-gradient(to right, #0431df 0%, #0887fb 66%);
   -webkit-background-clip: text;
-  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .starters3 {
   display: flex;
-  width: 780px;
+  width: auto;
   justify-content: space-between;
+  max-width: 70%;
+  margin-left: 40px;
 }
 
 .main-courses3 {
   display: flex;
   justify-content: space-between;
-  width: 780px;
+  max-width: 70%;
+  margin-left: 40px;
 }
 
 .desserts3 {
   display: flex;
   justify-content: space-between;
-  width: 780px;
+  max-width: 70%;
+  margin-left: 40px;
+}
+
+.line3 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .lignemenu3 {
-  padding-top: 30px;
-  margin: 0;
+  width: 90%;
+  height: auto;
 }
 
 .prix3 {
   font-weight: bold;
   font-size: 1.15em;
-  line-height: 1.9em;
+  line-height: 2.5em;
 }
 
+.ulprix3-2 {
+  line-height: 3em;
+}
+
+@media screen and (min-width: 660px) {
+  .card-container3 {
+    min-width: 640px;
+  }
+
+  .prix3 {
+    line-height: 2;
+  }
+
+  .ulprix3-2 {
+    line-height: 2.3;
+  }
+}
+@media screen and (min-width: 780px) {
+  .card-container3 {
+    width: 730px;
+  }
+
+  .prix3 {
+    line-height: 2;
+  }
+
+  .ulprix3-2 {
+    line-height: 2.3;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .card-container3 {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+    line-height: 2.5;
+  }
+
+  /*Plats*/
+  .starters3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    max-width: 80%;
+  }
+
+  .main-courses3 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-left: 60px;
+  }
+
+  .desserts3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    max-width: 80%;
+  }
+
+  /*Prix*/
+  .prix3 {
+    font-weight: bold;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+  }
+
+  .ulprix3-2 {
+    line-height: 2.3;
+  }
+
+  .line3 {
+    display: flex;
+    min-width: 900px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .lignemenu3 {
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 .card-container4 {
   background-color: #fdfffd;
   font-family: Caveat;
   box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  font-size: 1.5em;
+  width: 345px;
+  margin: auto;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
   line-height: 2;
 }
 
 .title4-1 {
   font-family: Kaushan_Script;
-  font-size: 2em;
-  background-image: -webkit-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  font-size: 1.5em;
+  background-image: -webkit-gradient(linear, to right, #3d9339 0%, #bfff7e 66%);
   /* For Chrome and Safari */
   background-image: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   /* For old Fx (3.6 to 15) */
@@ -1107,32 +1197,47 @@ header, footer, .btn {
   /* For pre-releases of IE 10*/
   background-image: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient to right, #3d9339 0%, #bfff7e 66%;
-  color: transparent;
+  background-image: linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   -webkit-background-clip: text;
-  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .starters4 {
   display: flex;
-  width: 850px;
+  width: auto;
   justify-content: space-between;
+  max-width: 70%;
+  margin-left: 40px;
 }
 
 .main-courses4 {
   display: flex;
-  width: 850px;
+  width: auto;
   justify-content: space-between;
+  max-width: 70%;
+  margin-left: 40px;
 }
 
 .desserts4 {
   display: flex;
-  width: 850px;
+  width: auto;
   justify-content: space-between;
+  max-width: 70%;
+  margin-left: 40px;
+}
+
+.line4 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .lignemenu4 {
+  width: 90%;
+  height: auto;
   padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .ulprix4 {
@@ -1141,6 +1246,82 @@ header, footer, .btn {
   line-height: 1.9em;
 }
 
+@media screen and (min-width: 660px) {
+  .card-container4 {
+    min-width: 640px;
+  }
+
+  .prix4 {
+    line-height: 2;
+  }
+}
+@media screen and (min-width: 780px) {
+  .card-container4 {
+    width: 730px;
+  }
+
+  .prix4 {
+    line-height: 2;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .card-container4 {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+    line-height: 2.5;
+  }
+
+  /*Plats*/
+  .starters4 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    max-width: 80%;
+  }
+
+  .main-courses4 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    max-width: 80%;
+  }
+
+  .desserts4 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-left: 60px;
+    max-width: 80%;
+  }
+
+  /*Prix*/
+  .prix4 {
+    font-weight: bold;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+  }
+
+  .line4 {
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .lignemenu4 {
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 /*Animations index*/
 /* Animation des titres des menus sur l'index*/
 @keyframes fadeOut {

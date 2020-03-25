@@ -34,7 +34,8 @@ ul {
 }
 
 h2, h3
-{text-align: center;}
+{text-align: center;
+  font-weight: normal;}
 
 
 .h3-ml
@@ -64,6 +65,4 @@ max-height: 300px;
 .line
 {
 display: flex;
-min-width: 900px;
-justify-content: center;
 margin: auto;}}
