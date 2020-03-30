@@ -20,7 +20,6 @@
     
     .card-content h2
     {
-      margin-top: 80px;
       font-size: 2em;
       line-height: 2;
       &:hover{
@@ -155,14 +154,13 @@
 .card-content
 {
   margin-bottom: 25px;
-  margin-top: 50px;
   box-shadow: 2px 1px 12px 2px rgba(0,0,0,0.12);
 }
 
-.card-content p
+.card-content h2
 {
   padding-top: 60px;
-  font-size: 1.7em;
+  font-size: 2em;
   line-height: 2;
   &:hover{
   transform: scale(1.2);
@@ -222,21 +220,14 @@ min-width: 250px;
     margin-left: 50px;
     margin-right: 80px;
     margin-bottom: 25px;
-    margin-top: 50px;
     box-shadow: 2px 1px 12px 2px rgba(0,0,0,0.12);
   }
   
-  .card-content p
+  .card-content h2
   {
     
     font-size: 2em;
     line-height: 2;
-    &:hover{
-    transform: scale(1.2);
-    transition: all 500ms;
-    animation-name: fadeOut;
-    animation-duration: 1000ms;
-    animation-fill-mode:forwards;}
   }
 
   
@@ -256,7 +247,7 @@ min-width: 250px;
   background-color: #fcdfdb;
   color: #3c1218;
   height: 400px;
-  width: 535px;
+  width: 450px;
   padding-top: 175px;
 
   }
@@ -268,7 +259,7 @@ min-width: 250px;
   background-color: #fff5fe;
   color: #c77412;
   height: 400px;
-  width: 535px;
+  width: 450px;
   padding-top: 175px;
   }
   
@@ -290,7 +281,7 @@ min-width: 250px;
   background-color: #f9f9f9;
   color: #0887fb;
   height: 400px;
-  width: 535px;
+  width: 450px;
   padding-top: 175px;
   }
   
@@ -310,7 +301,7 @@ min-width: 250px;
   background-color: #fdfffd;
   color: #72bf56;
   height: 400px;
-  width: 535px;
+  width: 450px;
   font-family: Kaushan_Script;
   padding-top: 175px;
   
