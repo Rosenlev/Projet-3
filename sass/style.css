@@ -312,15 +312,7 @@ header, footer, .btn {
 }
 
 .p-chic {
-  background-image: -webkit-gradient(linear, to right, #d8852e 0%, #905bfd 70%);
-  /* For Chrome and Safari */
-  background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-  /* For old Fx (3.6 to 15) */
-  background-image: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-  /* For pre-releases of IE 10*/
-  background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-  /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient(to right, #d8852e 0%, #905bfd 70%);
+  background: linear-gradient(to right, #d8852e 0%, #905bfd 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -335,15 +327,15 @@ header, footer, .btn {
 }
 
 .p-delice {
-  background-image: -webkit-gradient(to right, #0431df 0%, #0887fb 66%);
+  background: -webkit-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For Chrome and Safari */
-  background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  background: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For old Fx (3.6 to 15) */
-  background-image: -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  background: -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For pre-releases of IE 10*/
-  background-image: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  background: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  background: linear-gradient(to right, #0431df 0%, #0887fb 66%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -358,18 +350,17 @@ header, footer, .btn {
 }
 
 .p-palette {
-  background-image: -webkit-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  background: -webkit-gradient(to right, #3d9339 0%, #bfff7e 66%);
   /* For Chrome and Safari */
-  background-image: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  background: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   /* For old Fx (3.6 to 15) */
-  background-image: -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  background: -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   /* For pre-releases of IE 10*/
-  background-image: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  background: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  background: linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
 }
 
 /*Btn Prochainement*/
@@ -493,21 +484,6 @@ header, footer, .btn {
     padding-top: 175px;
   }
 
-  .p-chic {
-    background-image: -webkit-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #d8852e 0%, #905bfd 70%;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
   .delice-papilles {
     font-family: Dancing_Script;
     background-color: #f9f9f9;
@@ -517,21 +493,6 @@ header, footer, .btn {
     padding-top: 175px;
   }
 
-  .p-delice {
-    background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #0431df 0%, #0887fb 66%;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
   .palette-gout {
     background-color: #fdfffd;
     color: #72bf56;
@@ -539,357 +500,6 @@ header, footer, .btn {
     width: 450px;
     font-family: Kaushan_Script;
     padding-top: 175px;
-  }
-
-  .p-palette {
-    background-image: -webkit-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #3d9339 0%, #bfff7e 66%;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
-  /*Btn Prochainement*/
-  .btn-container {
-    width: auto;
-    justify-content: center;
-    flex-grow: 3;
-    display: flex;
-  }
-
-  .btn {
-    border-radius: 10px;
-    margin-bottom: 90px;
-    text-align: center;
-    width: 300px;
-    font-family: poppins;
-    font-size: 1.7em;
-    padding: 5px;
-  }
-
-  /*Menus*/
-  .cards {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex: 1 0 48%;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-
-  .card-content {
-    margin-bottom: 25px;
-    margin-top: 25px;
-    box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-  }
-
-  .card-content h2 {
-    font-size: 2em;
-    line-height: 2;
-  }
-  .card-content h2:hover {
-    transform: scale(1.2);
-    transition: all 500ms;
-    animation-name: fadeOut;
-    animation-duration: 1000ms;
-    animation-fill-mode: forwards;
-  }
-
-  .menu {
-    font-family: Caveat;
-  }
-
-  .menu2 {
-    font-family: Source_Serif_Pro;
-  }
-
-  .note-enchantee {
-    font-family: Devonshire;
-    background-color: #fcdfdb;
-    color: #3c1218;
-    min-height: 300px;
-    min-width: 250px;
-    padding-top: 30px;
-  }
-
-  .chic-française {
-    font-family: Junicoderegular;
-    font-weight: bold;
-    background-color: #fff5fe;
-    color: #c77412;
-    min-height: 300px;
-    min-width: 250px;
-    padding-top: 30px;
-  }
-
-  .p-chic {
-    background-image: -webkit-gradient(linear, to right, #d8852e 0%, #905bfd 70%);
-    /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .delice-papilles {
-    font-family: Dancing_Script;
-    background-color: #f9f9f9;
-    color: #0887fb;
-    min-height: 300px;
-    min-width: 250px;
-    padding-top: 30px;
-  }
-
-  .p-delice {
-    background-image: -webkit-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .palette-gout {
-    background-color: #fdfffd;
-    color: #72bf56;
-    min-height: 300px;
-    min-width: 250px;
-    padding-top: 30px;
-    font-family: Kaushan_Script;
-  }
-
-  .p-palette {
-    background-image: -webkit-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
-  /*Btn Prochainement*/
-  .btn-container {
-    width: auto;
-    justify-content: center;
-    flex-grow: 3;
-    display: flex;
-    margin-bottom: 10px;
-  }
-
-  .btn {
-    border-radius: 10px;
-    text-align: center;
-    width: 300px;
-    font-family: poppins;
-    font-size: 1.7em;
-    padding: 5px;
-  }
-}
-@media screen and (min-width: 1280px) and (min-width: 768px) {
-  .cards {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex: 1 0 48%;
-    flex-wrap: wrap;
-    text-align: center;
-    margin: 10px;
-  }
-
-  .card-content {
-    margin-bottom: 25px;
-    box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-  }
-
-  .card-content h2 {
-    padding-top: 60px;
-    font-size: 2em;
-    line-height: 2;
-  }
-  .card-content h2:hover {
-    transform: scale(1.2);
-    transition: all 500ms;
-    animation-name: fadeOut;
-    animation-duration: 1000ms;
-    animation-fill-mode: forwards;
-  }
-
-  .note-enchantee {
-    min-height: 350px;
-    min-width: 250px;
-  }
-
-  .chic-française {
-    min-height: 350px;
-    min-width: 250px;
-  }
-
-  .delice-papilles {
-    min-height: 350px;
-    min-width: 250px;
-  }
-
-  .palette-gout {
-    min-height: 350px;
-    min-width: 250px;
-  }
-}
-@media screen and (min-width: 1280px) and (min-width: 1024px) {
-  .cards {
-    justify-content: space-evenly;
-  }
-}
-@media screen and (min-width: 1280px) and (min-width: 1280px) {
-  .cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 0 48%;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-
-  .card-content {
-    margin-left: 50px;
-    margin-right: 80px;
-    margin-bottom: 25px;
-    box-shadow: 2px 1px 12px 2px rgba(0, 0, 0, 0.12);
-  }
-
-  .card-content h2 {
-    font-size: 2em;
-    line-height: 2;
-  }
-
-  .menu {
-    font-family: Caveat;
-  }
-
-  .menu2 {
-    font-family: Source_Serif_Pro;
-  }
-
-  .note-enchantee {
-    font-family: Devonshire;
-    background-color: #fcdfdb;
-    color: #3c1218;
-    height: 400px;
-    width: 450px;
-    padding-top: 175px;
-  }
-
-  .chic-française {
-    font-family: Junicoderegular;
-    font-weight: bold;
-    background-color: #fff5fe;
-    color: #c77412;
-    height: 400px;
-    width: 450px;
-    padding-top: 175px;
-  }
-
-  .p-chic {
-    background-image: -webkit-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 70%);
-    /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #d8852e 0%, #905bfd 70%;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
-  .delice-papilles {
-    font-family: Dancing_Script;
-    background-color: #f9f9f9;
-    color: #0887fb;
-    height: 400px;
-    width: 450px;
-    padding-top: 175px;
-  }
-
-  .p-delice {
-    background-image: -webkit-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
-    /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #0431df 0%, #0887fb 66%;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
-  .palette-gout {
-    background-color: #fdfffd;
-    color: #72bf56;
-    height: 400px;
-    width: 450px;
-    font-family: Kaushan_Script;
-    padding-top: 175px;
-  }
-
-  .p-palette {
-    background-image: -webkit-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
-    /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient to right, #3d9339 0%, #bfff7e 66%;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
-  /*Btn Prochainement*/
-  .btn-container {
-    width: auto;
-    justify-content: center;
-    flex-grow: 3;
-    display: flex;
-  }
-
-  .btn {
-    border-radius: 10px;
-    margin-bottom: 90px;
-    text-align: center;
-    width: 300px;
-    font-family: poppins;
-    font-size: 1.7em;
-    padding: 5px;
   }
 }
 /*MENU 1 - La note enchantée*/
@@ -1140,18 +750,17 @@ header, footer, .btn {
 .title2-1 {
   font-family: Junicoderegular;
   font-size: 1.5em;
-  background-image: -webkit-gradient(to right, #d8852e 0%, #905bfd 80%);
+  background: -webkit-gradient(to right, #d8852e 0%, #905bfd 80%);
   /* For Chrome and Safari */
-  background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+  background: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
   /* For old Fx (3.6 to 15) */
-  background-image: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+  background: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
   /* For pre-releases of IE 10*/
-  background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+  background: -o-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
   /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient(to right, #d8852e 0%, #905bfd 60%);
+  background: linear-gradient(to right, #d8852e 0%, #905bfd 60%);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
 }
 
 .title2-starters {
@@ -1274,15 +883,15 @@ header, footer, .btn {
   .title2-1 {
     font-family: Junicoderegular;
     font-size: 2em;
-    background-image: -webkit-gradient(to right, #d8852e 0%, #905bfd 80%);
+    background: -webkit-gradient(to right, #d8852e 0%, #905bfd 80%);
     /* For Chrome and Safari */
-    background-image: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+    background: -moz-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
     /* For old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+    background: -ms-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
     /* For pre-releases of IE 10*/
-    background-image: -o-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
+    background: -o-linear-gradient(to right, #d8852e 0%, #905bfd 80%);
     /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient(to right, #d8852e 0%, #905bfd 60%);
+    background: linear-gradient(to right, #d8852e 0%, #905bfd 60%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -1348,15 +957,15 @@ header, footer, .btn {
 .title3-1 {
   font-family: Dancing_Script;
   font-size: 1.5em;
-  background-image: -webkit-gradient(linear, to right, #0431df 0%, #0887fb 66%);
+  background: -webkit-gradient(linear, to right, #0431df 0%, #0887fb 66%);
   /* For Chrome and Safari */
-  background-image: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  background: -moz-linear-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For old Fx (3.6 to 15) */
-  background-image: -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  background: -ms-linear-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For pre-releases of IE 10*/
-  background-image: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  background: -o-linear-gradient(to right, #0431df 0%, #0887fb 66%);
   /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient(to right, #0431df 0%, #0887fb 66%);
+  background: linear-gradient(to right, #0431df 0%, #0887fb 66%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1542,15 +1151,15 @@ header, footer, .btn {
 .title4-1 {
   font-family: Kaushan_Script;
   font-size: 1.5em;
-  background-image: -webkit-gradient(linear, to right, #3d9339 0%, #bfff7e 66%);
+  background: -webkit-gradient(linear, to right, #3d9339 0%, #bfff7e 66%);
   /* For Chrome and Safari */
-  background-image: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  background: -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   /* For old Fx (3.6 to 15) */
-  background-image: -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  background: -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   /* For pre-releases of IE 10*/
-  background-image: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  background: -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+  background: linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1766,7 +1375,6 @@ h3:hover::after {
 h3::after {
   content: "";
   border-bottom: solid 2px;
-  line-height: auto;
   height: 100%;
   width: 100%;
   display: block;

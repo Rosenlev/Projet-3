@@ -16,11 +16,11 @@
 {
   font-family: Kaushan_Script;
   font-size: 1.5em;
-background-image: -webkit-gradient(linear, to right, #3d9339 0%, #bfff7e 66%); /* For Chrome and Safari */
-      background-image:    -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For old Fx (3.6 to 15) */
-      background-image:     -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For pre-releases of IE 10*/
-      background-image:      -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For old Opera (11.1 to 12.0) */
-    background-image: linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
+background: -webkit-gradient(linear, to right, #3d9339 0%, #bfff7e 66%); /* For Chrome and Safari */
+      background:    -moz-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For old Fx (3.6 to 15) */
+      background:     -ms-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For pre-releases of IE 10*/
+      background:      -o-linear-gradient(to right, #3d9339 0%, #bfff7e 66%); /* For old Opera (11.1 to 12.0) */
+    background: linear-gradient(to right, #3d9339 0%, #bfff7e 66%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }  
