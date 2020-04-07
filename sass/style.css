@@ -562,15 +562,9 @@ header, footer, .btn {
   font-size: 1em;
 }
 
-.title1-2 {
-  padding-right: 20px;
-  margin-top: 10px;
-}
-
 .lignemenu {
   width: 90%;
   height: 90%;
-  padding-left: 5px;
 }
 
 .imgnote1 {
@@ -594,7 +588,6 @@ header, footer, .btn {
 .line1 {
   display: flex;
   justify-content: space-between;
-  margin: auto;
 }
 
 .content {
@@ -714,15 +707,11 @@ header, footer, .btn {
     display: flex;
     max-width: 900px;
     justify-content: center;
-    margin: auto;
   }
 
   .lignemenu {
     width: auto;
     height: auto;
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 30px;
   }
 }
 /*MENU 2 - Le chic à la française*/
@@ -778,15 +767,11 @@ header, footer, .btn {
   font-family: junicoderegular;
 }
 
-.title1-2 {
-  padding-right: 20px;
-  margin-top: 10px;
-}
-
 .lignemenu {
   width: 90%;
   height: 90%;
-  padding-left: 5px;
+  padding-left: 10px;
+  padding-top: 15px;
 }
 
 .line2 {
