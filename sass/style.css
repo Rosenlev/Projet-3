@@ -647,6 +647,10 @@ header, footer, .btn {
   .prix1 {
     line-height: 1.5;
   }
+
+  .title1-2 {
+    padding-right: 5px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .card-container1 {
@@ -706,12 +710,17 @@ header, footer, .btn {
   .line1 {
     display: flex;
     max-width: 900px;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .lignemenu {
     width: auto;
     height: auto;
+  }
+
+  .title1-2 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 /*MENU 2 - Le chic à la française*/
@@ -770,7 +779,7 @@ header, footer, .btn {
 .lignemenu {
   width: 90%;
   height: 90%;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-top: 15px;
 }
 
@@ -884,6 +893,7 @@ header, footer, .btn {
   .lignemenu {
     width: auto;
     height: auto;
+    padding-top: 30px;
   }
 
   .line2 {
@@ -1272,7 +1282,7 @@ header, footer, .btn {
   .line4 {
     display: flex;
     max-width: 900px;
-    justify-content: center;
+    justify-content: space-between;
     margin: auto;
   }
 

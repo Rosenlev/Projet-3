@@ -185,7 +185,10 @@ line-height: 2.5;
 .prix1
 {
     line-height: 1.5;
-}}
+}
+
+.title1-2
+{padding-right: 5px;}}
 
 @media screen and (min-width: 1280px)
 
@@ -261,7 +264,7 @@ line-height: 2.5;
     
     display: flex;
     max-width: 900px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .lignemenu
@@ -270,4 +273,10 @@ line-height: 2.5;
   height: auto;
   
 }
+
+
+.title1-2
+{
+    padding-left: 20px;
+    padding-right: 20px;}
     }
